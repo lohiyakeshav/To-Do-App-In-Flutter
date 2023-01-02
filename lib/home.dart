@@ -40,10 +40,6 @@ class home extends StatelessWidget {
                     margin: EdgeInsets.only(top: 20, bottom: 20),
                     child: Text("All Items", style: TextStyle(fontSize: 30)),
                   ),
-                  ToDoItem(),
-                  ToDoItem(),
-                  ToDoItem(),
-                  ToDoItem(),
                   ToDoItem()
                 ],
               ),
