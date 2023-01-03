@@ -13,7 +13,7 @@ class ToDoItem extends StatelessWidget {
         },
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
-        tileColor: Colors.white,
+        tileColor: Colors.white54,
         leading: Icon(Icons.check_box, color: Colors.blue),
         title: Text('Kuch Toh Krle Saale',
             style: TextStyle(
@@ -30,6 +30,7 @@ class ToDoItem extends StatelessWidget {
             borderRadius: BorderRadius.circular(5),
           ),
           child: IconButton(
+            padding: EdgeInsets.symmetric(vertical: 5, horizontal: 5),
             icon: Icon(Icons.delete, color: Colors.grey,
             ),
             onPressed: () {
